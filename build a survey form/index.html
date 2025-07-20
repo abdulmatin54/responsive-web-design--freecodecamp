@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamers Feedback Survey</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="heading">
+        <h1 id="title">Gamers Unite! Share Your Thoughts!</h1>
+        <p id="description">We want to hear from gamers around the world. Tell us what you love, play, and wish for!</p>
+    </div>
+
+    <div id="main">
+        <form id="survey-form">
+            <div id="input-fields">
+                <label id="name-label"><b>Name:</b></label>
+                <input id="name" type="text" name="name" class="form" required placeholder="Full Name"><br><br>
+
+                <label id="email-label"><b>Email:</b></label>
+                <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br><br>
+
+                <label id="number-label"><b>Age:</b></label>
+                <input id="number" type="number" name="age" class="form" min="5" max="99" placeholder="Your age">
+            </div>
+
+            <div id="dropdown-div"><br>
+                <label id="dropdown-label"><strong>Favorite Gaming Platform:</strong></label><br>
+                <select id="dropdown" name="platform" class="form">
+                    <option value="pc">PC</option>
+                    <option value="playstation">PlayStation</option>
+                    <option value="xbox">Xbox</option>
+                    <option value="nintendo">Nintendo Switch</option>
+                    <option value="mobile">Mobile</option>
+                </select>
+            </div>
+
+            <div id="button-area"><br>
+                <label id="job-label"><b>How often do you play games?</b></label><br>
+                <input type="radio" class="radio-inline" name="frequency" value="daily" checked> Daily<br>
+                <input type="radio" class="radio-inline" name="frequency" value="weekly"> Weekly<br>
+                <input type="radio" class="radio-inline" name="frequency" value="monthly"> Monthly<br>
+                <input type="radio" class="radio-inline" name="frequency" value="rarely"> Rarely
+            </div>
+
+            <div id="button-area"><br>
+                <label id="os-label"><b>What genres do you enjoy?</b></label><br>
+                <input type="checkbox" name="genre1" value="fps" checked> FPS (First Person Shooter)<br>
+                <input type="checkbox" name="genre2" value="rpg"> RPG (Role Playing Games)<br>
+                <input type="checkbox" name="genre3" value="sports"> Sports<br>
+                <input type="checkbox" name="genre4" value="strategy"> Strategy<br>
+                <input type="checkbox" name="genre5" value="casual"> Casual/Arcade<br>
+            </div>
+
+            <div id="dropdown"><br><br>
+                <label id="dropdown-label"><strong>Game you’re currently playing the most:</strong></label><br>
+                <select id="dropdown" name="top-game" class="form">
+                    <option value="fortnite">Fortnite</option>
+                    <option value="valorant">Valorant</option>
+                    <option value="minecraft">Minecraft</option>
+                    <option value="gta">GTA V / Online</option>
+                    <option value="fifa">FIFA</option>
+                    <option value="eldenring">Elden Ring</option>
+                    <option value="cod">Call of Duty</option>
+                </select>
+            </div>
+
+            <div id="button-area"><br><br>
+                <label id="os-label"><b>Which upcoming features excite you?</b></label><br>
+                <input type="checkbox" name="tech1" value="vr"> VR/AR Support<br>
+                <input type="checkbox" name="tech2" value="crossplay"> Cross-platform gaming<br>
+                <input type="checkbox" name="tech3" value="raytracing"> Ray-Tracing Graphics<br>
+                <input type="checkbox" name="tech4" value="mods"> Modding Support<br>
+                <input type="checkbox" name="tech5" value="cloud"> Cloud Gaming<br>
+            </div>
+
+            <div id="ending"><br><br>
+                <label id="comments-label">Any suggestions or favorite moments you'd like to share?</label><br>
+                <textarea style="height:120px;" class="form" placeholder="Share your gaming stories or suggestions..."></textarea><br><br>
+                <input id="submit" type="submit" class="form">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

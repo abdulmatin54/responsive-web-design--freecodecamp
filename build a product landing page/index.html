@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cooking Course Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header id="header">
+    <img id="header-img" src="images/1000_F_332753934_tBacXEgxnVplFBRyKbCif49jh0Wz89ns.jpg" alt="Cooking Logo" />
+    <nav id="nav-bar">
+      <a class="nav-link" href="#features">Course Features</a>
+      <a class="nav-link" href="#video-section">Preview</a>
+      <a class="nav-link" href="#contact">Subscribe</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="main-section" id="features">
+      <h2>Course Features</h2>
+      <p>Learn to cook delicious meals with step-by-step guidance.</p>
+      <p>Courses suitable for beginners, intermediate, and advanced cooks.</p>
+    </section>
+
+    <section class="main-section" id="video-section">
+      <h2>Free Preview</h2>
+      <video id="video" width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section class="main-section" id="contact">
+      <h2>Join Our Cooking Community</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+        <input type="submit" id="submit" value="Subscribe" />
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
